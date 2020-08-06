@@ -11,6 +11,6 @@ class Dog
     @@all
   end
   def self.clear_all
-    puts "#{@dog.clear}"
+    @dog.clear
   end
 end
